@@ -1,4 +1,4 @@
-package gross_calculator;
+package calculators;
 
 import java.util.Scanner;
 import static java.lang.System.out;
@@ -30,7 +30,7 @@ public class GrossPayCalculator {
         sb.append(number);
         sb.append(" cups of coffee");
         out.println(sb.toString());
-
+        sc.close();
 
     }
 
